@@ -87,16 +87,19 @@
         }
 
         /* Projects Section */
-        .section-title {
-            font-size: 2.3rem;
+        .projects-heading-wrapper {
             text-align: center;
             width: 100%;
             margin-bottom: 2rem;
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 0.8rem;
-            letter-spacing: 2px;
+        }
+
+        .section-title {
+            font-size: 2.8rem;
+            letter-spacing: 3px;
             color: var(--text-main);
-            display: block;
+            display: inline-block;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 0.5rem;
         }
 
         .projects-grid {
@@ -209,7 +212,7 @@
                 font-size: 2rem;
             }
             .section-title {
-                font-size: 1.8rem;
+                font-size: 2rem;
             }
         }
     </style>
@@ -233,7 +236,10 @@
 
         <!-- Projects Section -->
         <main>
-            <h2 class="section-title">PROJECTS</h2>
+            <div class="projects-heading-wrapper">
+                <h2 class="section-title">PROJECTS</h2>
+            </div>
+            
             <div class="projects-grid">
                 
                 <!-- Project 1: Multi-Agent Coder -->
